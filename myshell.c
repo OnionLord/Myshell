@@ -1,6 +1,5 @@
 #include<unistd.h>
 #include<string.h>
-#include<stdio.h>
 #include<signal.h>
 #include<stdlib.h>
 
