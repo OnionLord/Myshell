@@ -22,7 +22,6 @@ int main()
             write(1, "Session Out\n", 13);
             wait(NULL);
             kill(pid, SIGKILL);
-            //주거써 수다리가 주거써
             return 1;
         }
         pid = fork();
